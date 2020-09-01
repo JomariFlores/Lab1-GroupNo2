@@ -48,7 +48,7 @@ public class Test {
 			if(topic.getKey().month == 9 && topic.getKey().year == 2002) {
 				System.out.println(topic.getValue());
 			}else {
-				System.out.println(topic.getKey() + " does not fall in September, 2002");
+				System.out.println(topic.getValue() + " does not fall in September, 2002");
 			}
 		}
 		*/
